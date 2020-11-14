@@ -1,0 +1,10 @@
+spring:
+  liquibase:
+    url: jdbc:h2:file:./db_test
+    enabled: true
+    user: dbtest
+    password: dbtest
+  r2dbc:
+    url: r2dbc:h2:file:///./db_test
+    username: dbtest
+    password: dbtest
